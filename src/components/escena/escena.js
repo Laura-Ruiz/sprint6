@@ -3,7 +3,7 @@
 function Escena({ texto }) {
     return (
         <div>
-            <p>
+            <p className="container-parrafo">
                 {texto}
             </p>
         </div>
