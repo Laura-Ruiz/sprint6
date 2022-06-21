@@ -1,11 +1,12 @@
+import { Parrafo } from "../../styled";
 
 
 function Escena({ texto }) {
     return (
         <div>
-            <p className="container-parrafo">
+            <Parrafo className="container-parrafo">
                 {texto}
-            </p>
+            </Parrafo>
         </div>
     )
 

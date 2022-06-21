@@ -1,7 +1,7 @@
 
 import './App.css';
 import Escena from './components/escena/escena.js'
-import '../src/style-sheet/escena.css'
+
 function App() {
   return (
     <div className="App">
