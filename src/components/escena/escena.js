@@ -3,15 +3,14 @@ import arrayTextos from "../../textos"
 //import React, {useState} from 'react';
 
 function Escena(props) {
-    //console.log(props)
-
+    
     return (
         <div>
 
-            {arrayTextos.map((item) =>
+            {arrayTextos.map((item, index) =>
             (
-                <Parrafo key={item.toString()} active={(props.numEscena) === arrayTextos.indexOf(item) ? "pink" : "none"}>
-                    {item}
+                <Parrafo key={`paragrafo-${index}`} active={(props.numEscena) === arrayTextos.indexOf(item) ? "pink" : "white"}>
+                    {item.texto}
                 </Parrafo>
 
             ))
